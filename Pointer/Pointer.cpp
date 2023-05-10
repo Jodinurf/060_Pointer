@@ -18,3 +18,7 @@ int main()
 	mahasiswa mhs{ 1 };		//object mhs
 	mhs.ShowNim();			//Member Access Operator
 
+	mahasiswa& ref = mhs;	//pointer reference refMhs
+	ref.nim = 2;			//member access Operator
+	mhs.ShowNim();
+
