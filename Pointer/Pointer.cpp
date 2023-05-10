@@ -8,3 +8,8 @@ public:
 	void ShowNim();	//Deklarasi Method
 };
 
+void mahasiswa::ShowNim()		//implementasi method diluar class
+{
+	cout << "No Induk = " << nim << endl;
+}
+
